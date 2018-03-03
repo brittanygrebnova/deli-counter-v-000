@@ -13,8 +13,7 @@ end
 
 def take_a_number(array, person)
   new_array = []
-  if array.length == 1
-    new_array.push("#{name}")
+  new_array.push("#{name}")
   new_array
   end
 end
