@@ -13,6 +13,7 @@ end
 
 def take_a_number(array, name)
   new_array = []
+  array.each_with_index do |person,
   new_array.push("#{name}")
 end
   
