@@ -13,7 +13,8 @@ end
 
 def take_a_number(array, person)
   new_array = array.push("#{person}")
- 
+  position = index + 1
+  puts "Welcome, #{person}. You are number #{position} in line."
 end
   
   
