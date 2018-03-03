@@ -14,7 +14,7 @@ end
 def take_a_number(array, person)
   new_array = array.push("#{person}")
   new_array
-  new_array.collect do |person, index|
+  new_array.each_with_index.collect do |person, index|
 end
   
   
