@@ -13,7 +13,7 @@ end
 
 def take_a_number(array, person)
   new_array = array.push("#{person}")
-  new_array
+  puts new_array
 end
   
   
