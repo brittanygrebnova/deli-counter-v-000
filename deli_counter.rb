@@ -13,8 +13,9 @@ end
 
 def take_a_number(array, person)
   new_array = []
-  array.each do |person|
-    new_array.push("#{person}")
+  if array.length = 1
+    new_array.push("#{name}")
+  new_array
   end
 end
   
