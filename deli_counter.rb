@@ -17,7 +17,7 @@ def take_a_number(array, person)
     index_plus_one = index + 1
     new_array.push("#{person}")
   end
-  puts "Welcome, #{name}. You are number #{index_plus_one} in line."
+  puts "Welcome, #{person}. You are number #{index_plus_one} in line."
 end
   
   
