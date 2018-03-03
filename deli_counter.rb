@@ -12,7 +12,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  if array.empty?
+  if array.length == 1
     puts "Welcome, #{name}. You are number 1 in line."
   end
 end
