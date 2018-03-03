@@ -3,18 +3,17 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length >= 1
     new_array = []
-    array.each_with_index do |person, index|
+    array.each_with_index do |name, index|
       index_plus_one = index + 1
-      new_array.push("#{index_plus_one}. #{person} ")
+      new_array.push("#{index_plus_one}. #{name} ")
     end
       puts "The line is currently: #{new_array.join}".strip
   end
 end
 
-def take_a_number(array, person)
-  new_array = array.push("#{person}")
-  position = index + 1
-  puts "Welcome, #{person}. You are number #{position} in line."
+def take_a_number(array, name)
+  new_array = array.push("#{name}")
+  puts new_array
 end
   
   
