@@ -12,8 +12,8 @@ def line(array)
 end
 
 def take_a_number(array, person)
-  array.push("#{person}")
-  array
+  new_array = array.push("#{person}")
+  new_array
 end
   
   
