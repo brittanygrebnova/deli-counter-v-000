@@ -14,7 +14,6 @@ end
 def take_a_number(array, name)
   new_array = []
   next_number = array.length + 1
-  puts "Welcome, #{name}. You are number #{next_number} in line."
   new_array.push("#{name}")
 end
   
