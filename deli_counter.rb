@@ -13,7 +13,6 @@ end
 
 def take_a_number(array, name)
   array = array.push("#{name}")
-  array
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
   
