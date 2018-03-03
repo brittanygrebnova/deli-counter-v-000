@@ -7,7 +7,7 @@ def line(array)
       index_plus_one = index + 1
       new_array.push("#{index_plus_one}. #{person} ")
     end
-      puts "The line is currently: #{new_array.join}"
+      puts "The line is currently: #{new_array.join}".strip
   end
 end
 
