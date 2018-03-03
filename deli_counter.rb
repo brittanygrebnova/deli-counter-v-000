@@ -12,11 +12,7 @@ def line(array)
 end
 
 def take_a_number(array, person)
-  new_array = []
-  array.collect do |person, index|
-    
-  new_array.push("#{person}")
-  new_array
+  array.push("#{person}")
 end
   
   
