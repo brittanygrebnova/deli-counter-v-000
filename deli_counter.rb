@@ -12,8 +12,9 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  if array.length == 1
-    "Welcome, #{name}. You are number 1 in line."
+  if array.empty?
+    index_plus_one == index + 1
+    "Welcome, #{name}. You are number #{index_plus_one} line."
   end
 end
   
