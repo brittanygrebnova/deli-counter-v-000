@@ -12,10 +12,9 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  new_array = array.push("#{name}")
-  new_array
-end
-  puts "Welcome, #{name}. You are number #{new_array[index]} in line."
+  array = array.push("#{name}")
+  array
+  puts "Welcome, #{name}. You are number #{array[index]} in line."
 end
   
   
