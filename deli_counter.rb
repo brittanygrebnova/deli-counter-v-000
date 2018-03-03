@@ -13,10 +13,8 @@ end
 
 def take_a_number(array, person)
   new_array = []
-  array.each_with_index do |person, index|
-    index_plus_one = index + 1
+  array.each do |person|
     new_array.push("#{person}")
-    puts "Welcome, #{person}. You are number #{index_plus_one} in line."
   end
 end
   
