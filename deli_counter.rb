@@ -13,7 +13,7 @@ end
 
 def take_a_number(array, name)
   if array.empty?
-    index_plus_one == index + 1
+    index_plus_one = index + 1
     "Welcome, #{name}. You are number #{index_plus_one} line."
   end
 end
