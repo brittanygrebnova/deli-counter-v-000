@@ -11,12 +11,13 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
+def take_a_number(array, person)
   new_array = []
-  array.each_with_index do |name, index|
+  array.each_with_index do |person, index|
     index_plus_one = index + 1
-    puts "Welcome, #{name}. You are number #{index_plus_one} in line."
+    new_array.push("#{person}")
   end
+  puts "Welcome, #{name}. You are number #{index_plus_one} in line."
 end
   
   
